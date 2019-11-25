@@ -1,0 +1,33 @@
+{
+  "name": "marabu-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "brain-games": "dist/bin/braingames.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpaceMarabu/frontend-project-lvl1.git"
+  },
+  "author": "qiberos@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpaceMarabu/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/SpaceMarabu/frontend-project-lvl1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.4"
+  },
+  "dependencies": {}
+}
