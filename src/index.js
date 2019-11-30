@@ -1,3 +1,3 @@
 import readlineSync from 'readline-sync';
 
-export { readlineSync };
+export default readlineSync;
