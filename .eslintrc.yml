@@ -4,17 +4,18 @@ plugins:
 	# https://github.com/babel/eslint-plugin-babel
   - babel
   - import
-  
-  
+
+
  	# https://eslint.org/docs/user-guide/configuring#specifying-environments
 env:
   node: true
-  
+
   	# https://github.com/babel/babel-eslint
 parser: babel-eslint
 
 extends:
   - 'airbnb-base'
-  
+
 rules:
   no-console: 0
+  no-cycle: 0
