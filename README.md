@@ -2,4 +2,4 @@
 
 [![Build Status](https://travis-ci.org/SpaceMarabu/frontend-project-lvl1.svg?branch=master)](https://travis-ci.org/SpaceMarabu/frontend-project-lvl1)
 
-<script id="asciicast-n6WXFRKytjGRkZwT7QuIfJnzO" src="https://asciinema.org/a/n6WXFRKytjGRkZwT7QuIfJnzO.js" async></script>
+<a href="https://asciinema.org/a/n6WXFRKytjGRkZwT7QuIfJnzO" target="_blank"><img src="https://asciinema.org/a/n6WXFRKytjGRkZwT7QuIfJnzO.svg" /></a>
