@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { game, readlineSync, random, isEven } from '../../index';
+import { game, readlineSync, random, isEven, wrongEven } from '../../index';
 
 
 console.log('Welcome to the Brain Games!');
@@ -8,8 +8,7 @@ console.log();
 console.log('Welcome to the Brain Games!');
 const userName = readlineSync.question('May I have your name? ');
 console.log(`Hi, ${userName}!`);
-const wrong = `Let's try again, ${userName}!`;
 
-game(random, isEven, wrong, userName);
+game(random, isEven, wrongEven, userName);
 
 export { userName };

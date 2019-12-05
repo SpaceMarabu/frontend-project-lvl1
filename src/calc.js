@@ -1,20 +1,23 @@
-import { random, cons, car, cdr } from './index';
+import { random } from './index';
 
-const pair = () => cons(random(), random());
 const randomOperation = () => {
 const num = Math.floor(Math.random() * 3) + 1;
 switch (num) {
   case 1:
-    return '+';
+    return `${random()} + ${random()}`;
     break;
   case 2:
-    return '-';
+    return `${random()} - ${random()}`;
     break;
   case 3:
-    return '*';
+    return `${random()} * ${random()}`;
     break;
 };
 };
-const calc = (pair) => String(`${car(pair)} ${randomOperation()} ${cdr(pair)}`);
-const operation
-export { randomOperation, pair, calc };
+
+const wrongCalc = (userName, rightAnswer, userAnswer) => {
+  console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${rightAnswer}`);
+  console.log(`Let's try again, ${userName}!`);
+};
+
+export { randomOperation, wrongCalc };
